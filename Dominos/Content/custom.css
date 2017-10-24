@@ -1,0 +1,44 @@
+﻿.btn-fluid {
+    width: 100%
+}
+
+.dominos-navbar .navbar-brand {
+    height: 80px
+}
+
+.dominos-navbar .navbar-collapse.pull-right .col-md-12 {
+    height: 40px;
+    line-height: 40px
+}
+
+.dominos-footer {
+    padding-top: 15px;
+    height: 150px;
+    background-color: #000;
+    color: #FFF
+}
+
+.dominos-product-container {
+    min-height: 400px
+}
+
+    .dominos-product-container .dominos-product-box {
+        background-color: #FFF;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        border-radius: 15px
+    }
+
+        .dominos-product-container .dominos-product-box .dominos-product-image {
+            width: 100%;
+            -webkit-border-top-left-radius: 15px;
+            -webkit-border-top-right-radius: 15px;
+            -moz-border-radius-topleft: 15px;
+            -moz-border-radius-topright: 15px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px
+        }
+
+        .dominos-product-container .dominos-product-box .btn-fluid {
+            border-radius: 0 0 15px 15px
+        }

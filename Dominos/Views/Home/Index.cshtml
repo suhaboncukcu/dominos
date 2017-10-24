@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Domino's";
+}
+
+<div class="jumbotron">
+    <h1>Carousel Here</h1>
+    <p>...</p>
+</div>
+
+<div class="container dominos-product-container">
+    <div class="row" id="product-list-app">
+        <div class="col-md-3 col-sm-6 col-xs-6" v-for="product in products">
+            <div class="single-product dominos-product-box">
+                <img :src="product.ProductImage" class="dominos-product-image" />
+                <h1>{{ product.ProductName }}</h1>
+                <p>{{ product.ProductPrice }}</p>
+                <button class="btn btn-success btn-fluid">Sipariş Ver</button>
+            </div>
+        </div>
+    </div>
+</div>
